@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-page {
+    width: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.login-heading {
+    font-size: 36px;
+    text-align: center;
+}
+
+.username input {
+    width: 90%;
+    border: 2px solid white;
+    color: white;
+    border-radius: 40px ;
+    margin: 2vh 8px;
+    height: 8vh;
+    background: transparent;
+    outline: none;
+    padding:20px 45px 20px 20px ;
+}
+
+
+.password input {
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 40px ;
+    margin: 2vh 8px;
+    height: 8vh;
+    background: transparent;
+    outline: none;
+    padding:20px 45px 20px 20px ;
+    color: white;
+}
+.remember-me{
+   display: flex;
+   justify-content: space-between;
+   font-size: 14px;
+   margin: 15px ;
+}
+.remember-me a{
+    text-decoration: none;
+    color: white;
+}
+.login button{
+    width: 90%;
+    height: 8vh;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.account a{
+    text-decoration: none;
+    color: white;
+}
+.username input::placeholder{
+    color: white;
+}
+.password input::placeholder{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+ 
